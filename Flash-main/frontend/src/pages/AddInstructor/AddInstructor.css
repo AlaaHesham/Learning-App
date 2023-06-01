@@ -1,0 +1,93 @@
+.add-admin {
+    border-style: solid;
+    border-color: rgb(189, 187, 187);
+    border-width: 1px;
+    box-shadow: 5px -5px 15px rgb(189, 187, 187);
+    padding: 25px;
+    width: 600px;
+    margin-left: 150px;
+    font-family: serif;
+    /* background-color: rgb(189, 204, 238); */
+}
+
+.admin-Title {
+    font-size: 24px;
+    text-align: center;
+    background-color: #8996d3    ;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 50px 10px;
+    box-shadow: 10px 5px black;
+    width:95%
+}
+
+.admin-list {
+    margin-top: 30px;
+}
+.admin-list:hover {
+    background-color: #d8e2fb
+
+    ;
+}
+
+.admin-form {
+    padding: 10px;
+    grid-row: 2;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+
+
+.admin-form-divChild>textarea {
+    width: 250px;
+    height: 80px;
+}
+
+.admin-form-divChild>select:hover {
+    cursor: pointer;
+}
+
+.admin-form-divChild>select {
+    background-color: rgb(215, 227, 241);
+}
+
+.admin-form-divChild>select>option {
+    background-color: white
+}
+
+.admin-form-divChild>input {
+    width: 250px;
+}
+
+.admin-form-divChild>label {
+    font-family: monospace;
+    margin-right:15px;
+    font-size: 20px;
+    
+}
+.registerInput {
+	background-color: transparent;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #fa7465    ;
+	outline: 0;
+	height: 30px;
+	width: 275px;
+}
+.registerInput2{
+	padding: 8px;
+	height: 30;
+	width: 275px;
+	background: #f2f2f2;
+	color: #333;
+	border: none;
+	border-bottom: 1px solid #fa7465
+    ;
+	border-radius: 1px;
+	font-size: 15px;
+	outline: none;
+	transition: all 250ms ease-in;
+}

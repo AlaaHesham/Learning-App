@@ -1,0 +1,68 @@
+.content{
+    .feedback{
+     .head{
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 16rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        
+     }
+.ratings{
+    display: flex;
+    justify-content: space-around;
+    .average{
+        .a{
+            color: #b4690e;
+            font-size: 55px;
+            font-weight: 700;
+            justify-self: center;
+        }
+        .b{
+            font-weight: 400;
+            color:#b4690e ;
+        }
+
+    }
+    .cards{
+       
+    .card{
+       display: flex;
+       flex-direction: row;
+       border: none;
+        .icon{
+            color:#e1ab22;
+        }
+        span{
+            color: burlywood;
+            margin-left: 1rem;
+        }
+    }
+}
+}
+    }
+
+    .reviews{
+        margin-left: 16rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        h1{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 3rem;
+        }
+        .rater{
+            margin-left: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            span{
+                font-size: 18px;
+                font-weight: 500;
+            }
+            p{
+                font-weight: 200;
+            }
+        }
+    }
+}

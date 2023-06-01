@@ -1,0 +1,44 @@
+
+
+.myCard {
+    width: 200px;
+    height: 300px;
+
+}
+
+.instructor-review {
+    width: 800%;
+    margin: 10px;
+    height:200px;
+}
+
+.avatar.card-img {
+    width: 50px;
+    padding: 5px;
+}
+
+.mb-2.text-muted.card-subtitle {
+    padding: 10px;
+}
+
+.avrg-rating {
+    color: rgb(194, 150, 38);
+    font-size: 23px;
+    float: left;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.num-of-rating {
+    cursor: pointer;
+}
+
+#allRatings {
+ 
+    color: rgb(194, 150, 38);
+    width: 170px;
+    padding-left: 7px;
+    margin-left: -5px;
+    font-size: smaller;
+
+}

@@ -1,0 +1,75 @@
+.admin-done {
+    font-size: 45px;
+    color: rgb(14, 72, 108);
+    text-align: center;
+    font-weight: bold;
+}
+
+.refund-requests-admin {
+    border-style: solid;
+    border-color: #1d1b84    ;
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 5px -5px 15px rgb(189, 187, 187);
+    padding: 20px;
+    width: 600px;
+    margin-left: 100px;
+    max-height:500px;
+    overflow-y: auto;
+    margin-bottom: 50px;
+
+}
+
+.request-container {
+    border: solid;
+    border-color: #f49395;
+   background-color:#f4939511;
+    padding: 20px;
+    border-width: 2px;
+    border-radius:20px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    box-shadow: 5px 5px 5px rgb(189, 187, 187);
+    
+}
+
+.request-container>label {
+    font-weight: bold;
+}
+
+.reject-request {
+    color: red;
+    border-color: red;
+    background-color: white;
+    margin: 10px;
+}
+
+.accept-request {
+    color: green;
+    border-color: green;
+    background-color: white;
+    margin: 10px;
+}
+
+.accept-request:hover {
+    background-color: rgb(187, 233, 202);
+}
+
+.reject-request:hover {
+    background-color: rgb(233, 187, 187);
+}
+
+.request-labels>label {
+    font-weight: 600;
+    margin-right: 20px;
+    width: 30%;
+    float: left;
+}
+
+
+#admin-report-container {
+    border: solid;
+    border-width: 2px;
+    border-color: #d60c199e;
+}

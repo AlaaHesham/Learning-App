@@ -1,0 +1,61 @@
+.exsend{
+    background-color: #212486;
+}
+.exsend:disabled{
+    background-color: #acc5fa;
+}
+.allexcercises{
+    margin: 2rem 6rem;
+    padding: 2rem;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+    h2{
+        color: #212486;
+    }
+    .excercises{
+        .exercise{
+            .ex{
+                padding-left: 1rem;
+                border-bottom: 1px solid #212486;
+                position: relative;
+                .q{
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+                .choice{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    margin-left: 0.5rem;
+                }
+                .result{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    margin-top: 1rem;
+                    span{
+                        width: 18rem;
+                        margin: 2rem 0.5rem;
+                       border-radius: 6px;
+                       background-color: #0a4d84;
+                       color: white;
+                       font-weight: 100;
+                       padding: 0.3rem 0.5rem;
+                    }
+                }
+            }
+            
+        }
+    }
+    button{
+        margin-top: 2rem;
+        background-color: #212486;
+        color: white;
+        border-radius: 2px;
+        border: none;
+        height: 2rem;
+        width: 4rem;
+    }
+}

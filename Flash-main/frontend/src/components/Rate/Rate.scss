@@ -1,0 +1,23 @@
+.modal{
+    
+    .title{
+    
+
+    }
+    .stars{
+        display: flex;
+        justify-content: space-between;
+        .star{
+            display: flex;
+            .icon{
+                color:#e1ab22;
+            }
+        }
+        margin: 1rem 0rem;
+        .review{
+            color: rgba($color: #000000, $alpha: 0.8);
+            margin: 1rem 0rem;
+            
+        }
+    }
+}

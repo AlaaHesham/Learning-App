@@ -1,0 +1,55 @@
+P.blocktext12 {
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+    justify-content: center;
+}
+.c12{
+    display: flex;
+    justify-content: center;
+}
+.c22{
+    display: flex;
+    justify-content: left;
+    margin-right: 10px;
+}
+.course-content{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+   margin-top: 20px;
+
+   .subtitle-item1{
+    padding: .75em 1em;
+    display: block;
+    transition: background-color .15s;
+    border-radius: 5px;
+  }
+
+  .subtitle-title1{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+  }
+  
+  .subtitle-item1.open > .subtitle-content1{
+    height: auto;
+  }
+  
+  .subtitle-content1{
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    div{
+      margin-left: 20px;
+    }
+  }
+   .last{
+    width: 97%;
+   }
+
+}
+

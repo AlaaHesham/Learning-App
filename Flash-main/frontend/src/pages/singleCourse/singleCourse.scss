@@ -1,0 +1,171 @@
+.single-course{
+  .topbar{
+      display: flex;
+      justify-content: space-between;
+      background-color: #202489;
+      color: white;
+      height: 4rem;
+      padding: 1rem 2rem;
+      
+      .left{
+          display: flex;
+          gap: 2rem;
+
+      }
+      .right{
+          display: flex;
+          gap: 2rem;
+
+          button{
+              background-color: #202489;
+              color: white;
+              border: 1px solid white;
+              height: 2rem;
+
+          }
+
+      }
+  }
+  .display{
+    height: fit-content;
+    margin-bottom: 30px;
+    
+  }
+
+  .navbar{
+      ul{
+          list-style: none;
+          display: flex;
+          gap: 3rem;
+          margin-left: 9rem;
+          .li{
+              font-weight: bold;
+              font-size: 16px;
+              color:rgba($color: #000000, $alpha: 0.5);
+              cursor: pointer;
+          }
+          .li.open{
+            color: #000000;
+            border-bottom: 1px solid black;
+          }
+          
+      }
+     
+  }
+  .course-content{
+      width: 60%;
+      margin: auto;
+     margin-top: 20px;
+
+     .subtitle-item{
+      padding: .75em 1em;
+      display: block;
+      transition: background-color .15s;
+      border-radius: 5px;
+    }
+    .subtitle-item:hover{
+      background-color: rgba(255, 255, 255, .1);
+    }
+    
+    .subtitle-title{
+      display: flex;
+      font-size: 1.2em;
+      justify-content: space-between;
+    }
+    .subtitle-title span i{
+      display: inline-block;
+      width: 1.5em;
+    }
+    .subtitle-title .toggle-btn{
+      cursor: pointer;
+      transition: transform .3s;
+    }
+    .subtitle-item.open > .subtitle-title .toggle-btn{
+      transform: rotate(180deg);
+    }
+    .subtitle-content{
+      padding-top: .25em;
+      height: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color:#647cd2;
+      
+      div{
+        margin-left: 20px;
+        .navigate{
+          text-decoration: none;
+          color: inherit;
+
+        }
+        .not-done{
+          visibility: hidden;
+        }
+      }
+      
+    }
+    .subtitle-item.open > .subtitle-content{
+      height: auto;
+    }
+    
+    .subtitle-item.plain{
+      color: #fff;
+      text-decoration: none;
+    }
+    .subtitle-item.plain:hover{
+      text-decoration: underline;
+    }
+    .subtitle-item.plain i{
+      display: inline-block;
+      width: 1.7em;
+    }
+    
+     .last{
+      width: 97%;
+     }
+
+
+  }
+
+  .reviews{
+      
+  }
+
+  .notes{
+    width: 70%;
+    margin: auto;
+    
+    .current{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .write-note{
+        width: 80%;
+        margin: 3rem 0rem;
+      }
+      .download{
+         height: 3.5rem;
+      }
+    }
+    .all{
+      margin: 2rem;
+      .note{
+        span{
+          font-weight: 500;
+          color: #647cd2;
+        }
+        p{
+          padding: 1rem;
+          border: 1px solid #647cd2;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+
+ 
+
+  
+
+}

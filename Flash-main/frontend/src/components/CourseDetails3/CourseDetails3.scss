@@ -1,0 +1,55 @@
+        .left{
+            display: flex;
+            margin-bottom: 20px;   
+            margin-right: 20px;  
+            min-width: 300px;  
+            min-height: 330px;   
+            max-width: 300px;
+            max-height: 330px;
+            .card{ 
+                max-width:300px;
+                max-height:330px;
+                min-width:300px;
+                min-height:330px;
+                .cardContent{
+                    max-width:300px;
+                    max-height:180px;
+                    min-width:300px;
+                    min-height:180px;
+                    .t1{
+                        max-width:270px;
+                        max-height:70px;
+                        min-width:270px;
+                        min-height:70px;
+                        justify-content: center;
+                        text-align: center;
+                        color:adjust-hue($color: #515057, $degrees: 0)
+                    }
+                    
+                    .t2{
+                        max-width:270px;
+                        max-height:70px;
+                        min-width:270px;
+                        min-height:70px;
+                        display:flex;
+                        flex-direction:column;  
+                        justify-content: center;
+                        text-align: center;
+                        color:adjust-hue($color: #212486, $degrees: 0)
+                    }
+                }
+                .cA{
+                    justify-content: center;
+                    color:#515057;
+                    max-width:300px;
+                    max-height:50px;
+                    min-width:300px;
+                    min-height:50px;
+                    .b1{
+                        color:#ffffff
+                        
+                    }
+                   
+                }   
+            }            
+        }   

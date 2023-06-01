@@ -1,0 +1,160 @@
+.create-course {
+    box-shadow: 5px 10px 10px gray;
+    margin: auto;
+    border-radius: 10px;
+   
+    border-width: 2px;
+    background-color: #abb6e887;
+    width: 1100px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    padding-left: 20px;
+
+}
+
+.submit {
+    text-align: right;
+}
+
+.create-course-tr {
+    box-shadow: 5px 5px 5px gray;
+   
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    padding: 10px;
+    background-color: #8996d372;
+    
+}
+
+.create-course-tr>input {
+    background-color: transparent;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #fa7465    ;
+	outline: 0;
+	height: 30px;
+	width: 90%;
+}
+
+.create-course-tr>input[type="number"] {
+    width: 10%;
+    border-radius: 0%;
+    margin-left: 0px;
+}
+
+.label1 {
+    margin-left: 0px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.label2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 270px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.preview-video-label {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 3px;
+}
+
+.create-course-tr>textarea {
+    padding: 8px;
+	height: 30;
+	width: 100%;
+	background: #f2f2f247;
+	color: #333;
+	border: none;
+	border-bottom: 1px solid #fa7465
+    ;
+	border-radius: 5px;
+	font-size: 15px;
+	outline: none;
+	transition: all 250ms ease-in;
+}
+
+.remove-subtitle {
+    background-color: rgba(202, 202, 228, 0.619);
+    border: solid;
+    border-color: #fa7465;
+    color: #fa7465;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 150px;
+    height: 28px;
+    border-width: 2px;
+    float: right;
+    font-weight: bold;
+}
+
+.remove-subtitle:hover {
+    background-color: rgb(252, 213, 213);
+}
+
+.subtitle-title {
+    margin: 10px;
+    font-size: 35px;
+}
+
+.subtitle-title-container {
+   
+    height: 70px;
+    width:1100px;
+    background-color: rgba(72, 14, 108, 0.07);
+    color: #1d1b84    ;
+    margin-left: -20px;
+    text-align: center;
+    
+}
+
+.create-course-error {
+    margin: 20px;
+    color: red;
+}
+
+.data {
+    font-size: 30px;
+    color:whitesmoke
+}
+
+.subjects-dropDownList {
+    color: white;
+    background-color: #ec6556;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.subjects-dropDownList:hover {
+    cursor: pointer;
+}
+
+.subjects-dropDownList>option {
+    background-color: #fa746541;
+
+}
+
+.create-course-done {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(22, 175, 73);
+    
+    margin-top: 10px;
+    width: auto;
+
+}
+
+#answer-dropdownlist {
+    margin-left: 100px;
+}
